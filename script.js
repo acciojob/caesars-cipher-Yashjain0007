@@ -15,7 +15,7 @@ function rot13(encodedStr){
 	// Your Result goes here
   // Only change code below this line
 	let words = encodedStr.split(" ");
-	for(let i=0; i < encodedStr.length; i++)
+	for(let i=0; i < words.length; i++)
 		{
 			const word = words[i];
 			let decoded = "";
