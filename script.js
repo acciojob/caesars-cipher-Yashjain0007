@@ -21,7 +21,7 @@ function rot13(encodedStr){
 			let decoded = "";
 			for(let j=0; j<word.length; j++)
 				{
-					let char = word.charAt(i);
+					let char = word.charAt(j);
 					let decoded_char = lookup[char];
 					decoded = decoded + decoded_char;
 					
